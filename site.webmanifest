@@ -1,0 +1,26 @@
+{
+  "name": "Future-X",
+  "short_name": "Future-X",
+  "description": "Games, learning, surveys and responsible X-Coin rewards.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#080b10",
+  "theme_color": "#080b10",
+  "orientation": "portrait",
+  "categories": ["entertainment", "education", "lifestyle"],
+  "icons": [
+    {
+      "src": "/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
