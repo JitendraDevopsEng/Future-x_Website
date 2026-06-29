@@ -20,16 +20,16 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd jitendra-portfolio
+          cd Future-x_Web
           npm install
 
       - name: Build project
         run: |
-          cd jitendra-portfolio
+          cd Future-x_Web
           npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./jitendra-portfolio/dist
+          publish_dir: ./Future-x_Web/dist
