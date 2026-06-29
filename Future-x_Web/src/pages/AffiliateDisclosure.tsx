@@ -1,0 +1,9 @@
+import PolicyPage from "../components/PolicyPage";
+export default function AffiliateDisclosure() { return <PolicyPage title="Affiliate Disclosure" description="How optional affiliate offers and commissions work on Future-X." path="/affiliate-disclosure" sections={[
+  { title: "Our affiliate relationship", content: <p>Future-X may display links or campaigns for products and services supplied by independent third parties. If you make an eligible purchase or complete a qualifying action through one of these links, Future-X may receive a commission.</p> },
+  { title: "Your choice", content: <p>Affiliate offers are optional. You are not required to view, click or purchase an offer to access core Future-X features. A commission does not increase a price set by Future-X, although the third-party provider controls its own pricing.</p> },
+  { title: "Third-party responsibility", content: <p>Future-X does not manufacture, own or directly warrant third-party products. The seller or service provider is responsible for descriptions, fulfilment, billing, warranties, cancellations, refunds and support under its terms.</p> },
+  { title: "Review before purchasing", content: <p>Before buying, check the provider's identity, full price, suitability, delivery terms, recurring charges, privacy policy, cancellation rights and return policy. Do not rely only on reward eligibility when deciding to purchase.</p> },
+  { title: "Tracking", content: <p>Affiliate links may contain campaign identifiers used to attribute eligible actions. See our Privacy Policy and the provider's privacy notice for information about data handling.</p> },
+  { title: "Questions or concerns", content: <p>Contact the provider first for product, billing, return or delivery issues. You may also report misleading or unsafe affiliate content to <a href="mailto:admin@future-x.co.in">admin@future-x.co.in</a>.</p> },
+]} />; }
