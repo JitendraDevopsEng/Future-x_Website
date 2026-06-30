@@ -12,7 +12,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <HelmetProvider>
-      <BrowserRouter basename="/Future-x_Website">
+      <BrowserRouter basename="/">
         <App />
       </BrowserRouter>
     </HelmetProvider>
