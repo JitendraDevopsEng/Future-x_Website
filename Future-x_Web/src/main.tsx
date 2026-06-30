@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom"; // 1. Yahan BrowserRouter ki jagah HashRouter kiya
 import { HelmetProvider } from "react-helmet-async";
 import App from "./App.tsx";
 
@@ -12,9 +12,10 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <HelmetProvider>
-      <BrowserRouter>
+      {/* 2. Yahan HashRouter lagaya aur basename ko hata diya */}
+      <HashRouter>
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </HelmetProvider>
   </React.StrictMode>
 );
