@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="footer-grid">
         <div className="footer-intro">
           <Link className="brand" to="/"><img src="/logo192.png" alt="" width="44" height="44" /><span>FUTURE<span>-X</span></span></Link>
-          <p>A reward-based engagement platform for games, learning, surveys, optional affiliate offers and eligible activities.</p>
+          <p>An entertainment and engagement platform featuring short videos, games, daily tasks, optional affiliate campaigns and promotional X-Coin rewards.</p>
           <a className="contact-link" href="mailto:admin@future-x.co.in"><Mail size={17} /> admin@future-x.co.in</a>
           <div className="social-links" aria-label="Social links">
             <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><FaInstagram /></a>

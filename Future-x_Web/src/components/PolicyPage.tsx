@@ -12,7 +12,7 @@ type Props = {
   sections: PolicySection[];
 };
 
-export default function PolicyPage({ eyebrow = "Trust center", title, description, path, updated = "29 June 2026", sections }: Props) {
+export default function PolicyPage({ eyebrow = "Trust center", title, description, path, updated = "1 July 2026", sections }: Props) {
   return <main id="main-content" className="page-main">
     <Seo title={`${title} | Future-X`} description={description} path={path} />
     <header className="page-hero compact">
