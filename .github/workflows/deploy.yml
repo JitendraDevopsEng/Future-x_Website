@@ -27,6 +27,24 @@ jobs:
         run: |
           cd Future-x_Web
           npm run build
+          
+          # 1. Sabhi 13 page routes ke liye physical sub-folders create karna
+          mkdir -p dist/about dist/contact dist/support dist/faq dist/privacy-policy dist/terms-and-conditions dist/delete-account dist/affiliate-disclosure dist/refund-policy dist/disclaimer dist/community-guidelines dist/responsible-rewards dist/cookie-policy
+          
+          # 2. Index.html ko har ek physical folder ke andar copy karna (200 OK Status ke liye)
+          cp dist/index.html dist/about/index.html
+          cp dist/index.html dist/contact/index.html
+          cp dist/index.html dist/support/index.html
+          cp dist/index.html dist/faq/index.html
+          cp dist/index.html dist/privacy-policy/index.html
+          cp dist/index.html dist/terms-and-conditions/index.html
+          cp dist/index.html dist/delete-account/index.html
+          cp dist/index.html dist/affiliate-disclosure/index.html
+          cp dist/index.html dist/refund-policy/index.html
+          cp dist/index.html dist/disclaimer/index.html
+          cp dist/index.html dist/community-guidelines/index.html
+          cp dist/index.html dist/responsible-rewards/index.html
+          cp dist/index.html dist/cookie-policy/index.html
           cp dist/index.html dist/404.html
 
       - name: Deploy to GitHub Pages
